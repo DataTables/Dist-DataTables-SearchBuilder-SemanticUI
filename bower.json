@@ -1,0 +1,39 @@
+{
+    "name": "datatables.net-searchbuilder-bs",
+    "description": "Advanced Search Builder for DataTables with styling for Semantic UI",
+    "main": [
+        "js/searchBuilder.semanticui.js",
+        "css/searchBuilder.semanticui.css"
+    ],
+    "keywords": [
+        "Search",
+	    "Filtering",
+        "DataTables",
+        "jQuery",
+        "table",
+        "SemanticUI"
+    ],
+    "dependencies": {
+        "jquery": ">=1.7",
+        "datatables.net-se": ">=1.10.19",
+        "datatables.net-se-searchbuilder": ">=1.0.0"
+    },
+    "moduleType": [
+        "globals",
+        "amd",
+        "node"
+    ],
+    "ignore": [
+        "composer.json",
+        "datatables.json",
+        "package.json"
+    ],
+    "authors": [
+        {
+            "name": "SpryMedia Ltd",
+            "homepage": "https://datatables.net"
+        }
+    ],
+    "homepage": "https://datatables.net",
+    "license": "MIT"
+}

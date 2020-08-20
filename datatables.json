@@ -1,0 +1,13 @@
+{
+    "css": [
+        "css/searchBuilder.semanticui.css",
+        "css/searchBuilder.semanticui.min.css"
+    ],
+    "js": [
+        "js/searchBuilder.semanticui.js",
+        "js/searchBuilder.semanticui.min.js"
+    ],
+    "src-repo": "http://github.com/DataTables/SearchBuilder",
+    "last-sync": "",
+    "last-tag": "1.0.0"
+}
