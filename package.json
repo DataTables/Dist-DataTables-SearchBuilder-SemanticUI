@@ -1,35 +1,35 @@
 {
-	"name": "datatables.net-searchbuilder-bs",
-	"version": "1.0.0",
-	"description": "Advanced Search Builder for DataTables with styling for Semantic UI",
-	"files": [
-		"css/**/*.css",
-		"js/**/*.js"
-	],
-	"main": "js/searchBuilder.semantic.js",
-	"style": "css/searchBuilder.semantic.css",
-	"keywords": [
-		"Search",
-		"Filtering",
-		"DataTables",
-		"jQuery",
-		"table",
-		"Semantic"
-	],
-	"homepage": "https://datatables.net",
-	"bugs": "https://datatables.net/forums",
-	"license": "MIT",
-	"author": {
-		"name": "SpryMedia ltd",
-		"url": "http://datatables.net"
-	},
-	"dependencies": {
-		"jquery": ">=1.7",
-		"datatables.net-bs": "^1.10.15",
+    "name": "datatables.net-searchbuilder-bs",
+    "version": "1.0.0",
+    "description": "Advanced Search Builder for DataTables with styling for Semantic UI",
+    "files": [
+        "css/**/*.css",
+        "js/**/*.js"
+    ],
+    "main": "js/searchBuilder.semantic.js",
+    "style": "css/searchBuilder.semantic.css",
+    "keywords": [
+        "Search",
+        "Filtering",
+        "DataTables",
+        "jQuery",
+        "table",
+        "Semantic"
+    ],
+    "homepage": "https://datatables.net",
+    "bugs": "https://datatables.net/forums",
+    "license": "MIT",
+    "author": {
+        "name": "SpryMedia ltd",
+        "url": "http://datatables.net"
+    },
+    "dependencies": {
+        "jquery": ">=1.7",
+        "datatables.net-bs": "^1.10.15",
         "datatables.net-searchbuilder": "1.0.0"
     },
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/DataTables/Dist-DataTables-SearchBuilder-SemanticUI.git"
-	}
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/DataTables/Dist-DataTables-SearchBuilder-SemanticUI.git"
+    }
 }
