@@ -1,5 +1,5 @@
 {
-    "name": "datatables.net-searchbuilder-bs",
+    "name": "datatables.net-searchbuilder-se",
     "description": "Advanced Search Builder for DataTables with styling for Semantic UI",
     "main": [
         "js/searchBuilder.semanticui.js",
