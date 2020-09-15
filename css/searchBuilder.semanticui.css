@@ -7,19 +7,19 @@ div.dtsb-searchBuilder {
   cursor: default;
   margin-bottom: 1em;
 }
+div.dtsb-searchBuilder button.dtsb-button,
+div.dtsb-searchBuilder select {
+  font-size: 1em;
+}
 div.dtsb-searchBuilder div.dtsb-titleRow {
   justify-content: space-evenly;
   margin-bottom: 0.5em;
 }
 div.dtsb-searchBuilder div.dtsb-titleRow div.dtsb-title {
   display: inline-block;
-  font-size: 1em;
-  padding: 5px;
-  margin-top: 9px;
-  margin-left: 10px;
+  padding-top: 6px;
 }
 div.dtsb-searchBuilder div.dtsb-titleRow button.dtsb-clearAll {
-  margin-top: 10px;
   float: right;
 }
 div.dtsb-searchBuilder div.dtsb-vertical .dtsb-value, div.dtsb-searchBuilder div.dtsb-vertical .dtsb-data, div.dtsb-searchBuilder div.dtsb-vertical .dtsb-condition {
@@ -27,20 +27,15 @@ div.dtsb-searchBuilder div.dtsb-vertical .dtsb-value, div.dtsb-searchBuilder div
 }
 div.dtsb-searchBuilder div.dtsb-group {
   position: relative;
-  /* background-color: #e4e2e2; */
-  border-radius: 3px;
-  margin-left: 10px;
+  clear: both;
+  margin-bottom: 0.8em;
 }
 div.dtsb-searchBuilder div.dtsb-group button.dtsb-clearGroup {
   margin: 2px;
 }
 div.dtsb-searchBuilder div.dtsb-group button.dtsb-add {
-  margin-bottom: 0px;
-  margin-top: 10px;
-  padding-left: 8px;
-  padding-right: 8px;
-  min-width: 80px !important;
-  text-align: left;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
 }
 div.dtsb-searchBuilder div.dtsb-group div.dtsb-logicContainer {
   -webkit-transform: rotate(90deg);
@@ -49,15 +44,15 @@ div.dtsb-searchBuilder div.dtsb-group div.dtsb-logicContainer {
   -ms-transform: rotate(90deg);
   transform: rotate(90deg);
   position: absolute;
-  margin-top: 10px;
-  margin-right: 10px;
+  margin-top: 0.8em;
+  margin-right: 0.8em;
 }
 div.dtsb-searchBuilder div.dtsb-group div.dtsb-criteria {
-  margin-top: 10px;
+  margin-bottom: 0.8em;
 }
 div.dtsb-searchBuilder div.dtsb-group div.dtsb-criteria select.dtsb-dropDown, div.dtsb-searchBuilder div.dtsb-group div.dtsb-criteria input.dtsb-input {
-  padding: 5px;
-  margin-right: 10px;
+  padding: 0.4em;
+  margin-right: 0.8em;
 }
 div.dtsb-searchBuilder div.dtsb-group div.dtsb-criteria select.dtsb-dropDown option.dtsb-notItalic, div.dtsb-searchBuilder div.dtsb-group div.dtsb-criteria input.dtsb-input option.dtsb-notItalic {
   font-style: normal;
@@ -70,10 +65,13 @@ div.dtsb-searchBuilder div.dtsb-group div.dtsb-criteria div.dtsb-buttonContainer
   display: inline-block;
 }
 div.dtsb-searchBuilder div.dtsb-group div.dtsb-criteria div.dtsb-buttonContainer button.dtsb-delete, div.dtsb-searchBuilder div.dtsb-group div.dtsb-criteria div.dtsb-buttonContainer button.dtsb-right, div.dtsb-searchBuilder div.dtsb-group div.dtsb-criteria div.dtsb-buttonContainer button.dtsb-left {
-  margin-right: 10px;
+  margin-right: 0.8em;
+}
+div.dtsb-searchBuilder div.dtsb-group div.dtsb-criteria div.dtsb-buttonContainer button.dtsb-delete:last-child, div.dtsb-searchBuilder div.dtsb-group div.dtsb-criteria div.dtsb-buttonContainer button.dtsb-right:last-child, div.dtsb-searchBuilder div.dtsb-group div.dtsb-criteria div.dtsb-buttonContainer button.dtsb-left:last-child {
+  margin-right: 0;
 }
 div.dtsb-searchBuilder div.dtsb-group div.dtsb-criteria span.dtsp-joiner {
-  margin-right: 10px;
+  margin-right: 0.8em;
 }
 
 div.dt-datetime {
@@ -288,15 +286,9 @@ div.dtsb-searchBuilder button.dtsb-button {
   min-height: 30px;
 }
 div.dtsb-searchBuilder div.dtsb-titleRow {
-  height: 50px;
-}
-div.dtsb-searchBuilder div.dtsb-titleRow div.dtsb-title {
-  padding-top: 10px;
-  padding-left: 10px;
-  font-size: 1.4375rem;
+  margin-bottom: 1em;
 }
 div.dtsb-searchBuilder div.dtsb-titleRow button.dtsb-clearAll {
-  margin-right: 10px;
   margin-bottom: 0px;
 }
 div.dtsb-searchBuilder div.dtsb-group div.dtsb-criteria select {
@@ -319,7 +311,7 @@ div.dtsb-searchBuilder div.dtsb-group div.dtsb-logicContainer {
   justify-content: flex-start;
   align-content: flex-start;
   align-items: flex-start;
-  margin-top: 10px;
+  margin-top: 0.8em;
 }
 div.dtsb-searchBuilder div.dtsb-group div.dtsb-logicContainer button.dtsb-logic {
   border: none;
