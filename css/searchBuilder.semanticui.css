@@ -6,6 +6,7 @@ div.dtsb-searchBuilder {
   justify-content: space-evenly;
   cursor: default;
   margin-bottom: 1em;
+  text-align: left;
 }
 div.dtsb-searchBuilder button.dtsb-button,
 div.dtsb-searchBuilder select {
@@ -21,6 +22,7 @@ div.dtsb-searchBuilder div.dtsb-titleRow div.dtsb-title {
 }
 div.dtsb-searchBuilder div.dtsb-titleRow button.dtsb-clearAll {
   float: right;
+  margin-bottom: 0.333em;
 }
 div.dtsb-searchBuilder div.dtsb-vertical .dtsb-value, div.dtsb-searchBuilder div.dtsb-vertical .dtsb-data, div.dtsb-searchBuilder div.dtsb-vertical .dtsb-condition {
   display: block;
@@ -32,10 +34,8 @@ div.dtsb-searchBuilder div.dtsb-group {
 }
 div.dtsb-searchBuilder div.dtsb-group button.dtsb-clearGroup {
   margin: 2px;
-}
-div.dtsb-searchBuilder div.dtsb-group button.dtsb-add {
-  padding-left: 0.5em;
-  padding-right: 0.5em;
+  text-align: center;
+  padding: 0;
 }
 div.dtsb-searchBuilder div.dtsb-group div.dtsb-logicContainer {
   -webkit-transform: rotate(90deg);
