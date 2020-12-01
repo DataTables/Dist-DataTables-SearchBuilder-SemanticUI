@@ -1,6 +1,6 @@
 {
     "name": "datatables.net-searchbuilder-se",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Advanced Search Builder for DataTables with styling for Semantic UI",
     "files": [
         "css/**/*.css",
@@ -26,7 +26,7 @@
     "dependencies": {
         "jquery": ">=1.7",
         "datatables.net-se": "^1.10.15",
-        "datatables.net-searchbuilder": "1.0.0"
+        "datatables.net-searchbuilder": "1.0.1"
     },
     "repository": {
         "type": "git",
