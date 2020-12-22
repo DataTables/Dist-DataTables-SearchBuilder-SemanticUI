@@ -1,6 +1,9 @@
 div.dt-button-collection {
   overflow: visible !important;
 }
+div.dt-button-collection div.dtsb-searchBuilder {
+  width: 100% !important;
+}
 
 .dtsb-greyscale {
   border: 1px solid #cecece !important;
