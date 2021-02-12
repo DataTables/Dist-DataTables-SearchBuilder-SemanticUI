@@ -336,12 +336,12 @@ div.dtsb-searchBuilder div.dtsb-group div.dtsb-logicContainer button.dtsb-logic 
   border-radius: 0px;
   flex-grow: 1;
   flex-shrink: 0;
-  flex-basis: 40px;
+  flex-basis: 3em;
   margin: 0px;
 }
 div.dtsb-searchBuilder div.dtsb-group div.dtsb-logicContainer button.dtsb-clearGroup {
   border: none;
   border-radius: 0px;
-  width: 30px;
+  width: 2em;
   margin: 0px;
 }
