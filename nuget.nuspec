@@ -10,8 +10,8 @@
         <license type="expression">MIT</license>
         <tags>SearchBuilder  Filtering  Search  Semantic  SemanticUI  Semantic UI  Datatables jQuery table</tags>
         <dependencies>
-            <dependency id="datatables.net-searchbuilder" version="1.1.0"/>
-            <dependency id="datatables.net-se" version="1.10.25"/>
+            <dependency id="datatables.net-searchbuilder" version="1.2.2"/>
+            <dependency id="datatables.net-se" version="1.11.3"/>
         </dependencies>
         <contentFiles>
             <files include="**/*" buildAction="Content"/>

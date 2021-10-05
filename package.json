@@ -12,11 +12,11 @@
     ],
     "keywords": [
         "SearchBuilder",
-        "Filtering",
-        "Search",
+ "Filtering",
+ "Search",
         "Semantic",
-        "SemanticUI",
-        "Semantic UI",
+ "SemanticUI",
+ "Semantic UI",
         "Datatables",
         "jQuery",
         "table",
@@ -24,8 +24,8 @@
         "sort"
     ],
     "dependencies": {
-        "datatables.net-searchbuilder": ">=1.1.0",
-        "datatables.net-se": ">=1.10.25",
+        "datatables.net-searchbuilder": ">=1.2.2",
+        "datatables.net-se": ">=1.11.3",
         "jquery": ">=1.7"
     },
     "moduleType": [
