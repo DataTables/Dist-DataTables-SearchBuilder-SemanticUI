@@ -149,7 +149,6 @@ div.dtsb-searchBuilder div.dtsb-group div.dtsb-criteria select.dtsb-value, div.d
   border-color: #2185d0;
 }
 div.dtsb-searchBuilder div.dtsb-group button.ui.button {
-  border: 1px solid rgba(34, 36, 38, 0.15);
   border-radius: 4px;
 }
 div.dtsb-searchBuilder div.dtsb-group div.dtsb-logicContainer {
