@@ -2,9 +2,12 @@
  * © SpryMedia Ltd - datatables.net/license
  */
 
-import $ from 'jquery';
+import jQuery from 'jquery';
 import DataTable from 'datatables.net-se';
 import SearchBuilder from 'datatables.net-searchbuilder';
+
+// Allow reassignment of the $ variable
+let $ = jQuery;
 
 $.extend(true, DataTable.SearchBuilder.classes, {
     clearAll: 'basic ui button dtsb-clearAll'
