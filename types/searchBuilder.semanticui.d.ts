@@ -1,4 +1,5 @@
-/*! semantic ui integration for DataTables' SearchBuilder
- * © SpryMedia Ltd - datatables.net/license
- */
-declare var DataTable: any;
+
+import DataTable from 'datatables.net-searchbuilder';
+
+export default DataTable;
+export * from 'datatables.net-searchbuilder';
