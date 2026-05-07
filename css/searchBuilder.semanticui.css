@@ -53,6 +53,10 @@ div.dtsb-searchBuilder div.dtsb-group {
   position: relative;
   clear: both;
   margin-bottom: 0.8em;
+  margin-left: 46px;
+}
+div.dtsb-searchBuilder div.dtsb-group > button:first-child {
+  margin-left: -46px;
 }
 div.dtsb-searchBuilder div.dtsb-group button.dtsb-search {
   float: right;
@@ -63,14 +67,10 @@ div.dtsb-searchBuilder div.dtsb-group button.dtsb-clearGroup {
   padding: 0;
 }
 div.dtsb-searchBuilder div.dtsb-group div.dtsb-logicContainer {
-  -webkit-transform: rotate(90deg);
-  -moz-transform: rotate(90deg);
-  -o-transform: rotate(90deg);
-  -ms-transform: rotate(90deg);
-  transform: rotate(90deg);
   position: absolute;
-  margin-top: 0.8em;
-  margin-right: 0.8em;
+  left: -0.8em;
+  transform: rotate(90deg);
+  transform-origin: top left;
 }
 div.dtsb-searchBuilder div.dtsb-group div.dtsb-criteria {
   margin-bottom: 0.8em;
@@ -174,7 +174,6 @@ div.dt-button-collection div.dtsb-searchBuilder select.ui.dropdown {
   font-size: 13.33px;
 }
 div.dt-button-collection div.dtsb-searchBuilder div.dtsb-logicContainer {
-  margin-top: 10px !important;
   border: 1px solid rgba(34, 36, 38, 0.15);
   border-radius: 4px;
 }
@@ -196,6 +195,12 @@ div.dtsb-searchBuilder div.dtsb-titleRow {
 }
 div.dtsb-searchBuilder div.dtsb-titleRow button.dtsb-clearAll {
   margin-bottom: 0px;
+}
+div.dtsb-searchBuilder div.dtsb-group {
+  margin-left: 41px;
+}
+div.dtsb-searchBuilder div.dtsb-group > button:first-child {
+  margin-left: -41px;
 }
 div.dtsb-searchBuilder div.dtsb-group div.dtsb-criteria select {
   width: auto !important;
@@ -221,7 +226,6 @@ div.dtsb-searchBuilder div.dtsb-group div.dtsb-logicContainer {
   justify-content: flex-start;
   align-content: flex-start;
   align-items: flex-start;
-  margin-top: 0.8em;
 }
 div.dtsb-searchBuilder div.dtsb-group div.dtsb-logicContainer button.dtsb-logic {
   border: none;
