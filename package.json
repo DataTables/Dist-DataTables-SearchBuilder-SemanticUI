@@ -41,9 +41,10 @@
     "exports": {
         ".": {
             "types": "./types/searchBuilder.semanticui.d.ts",
+            "style": "./css/searchBuilder.semanticui.css",
             "import": "./js/searchBuilder.semanticui.mjs",
-            "default": "./js/searchBuilder.semanticui.mjs",
-            "require": "./js/searchBuilder.semanticui.js"
+            "require": "./js/searchBuilder.semanticui.js",
+            "default": "./js/searchBuilder.semanticui.mjs"
         },
         "./js/*": "./js/*",
         "./css": {
