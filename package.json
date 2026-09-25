@@ -5,7 +5,7 @@
     "module": "./js/searchBuilder.semanticui.mjs",
     "style": "./css/searchBuilder.semanticui.css",
     "types": "./types/searchBuilder.semanticui.d.ts",
-    "version": "2.1.0",
+    "version": "2.1.1",
     "files": [
         "js",
         "css",
@@ -24,7 +24,7 @@
         "sort"
     ],
     "dependencies": {
-        "datatables.net-searchbuilder": "2.1.0",
+        "datatables.net-searchbuilder": "2.1.1",
         "datatables.net-se": "^3.1"
     },
     "author": {
